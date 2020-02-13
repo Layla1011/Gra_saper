@@ -1,0 +1,24 @@
+Zasady gry w Sapera:
+-9 to symbol miny; jesli wejdziesz na mine- przegrales
+-jesli odkryjesz wszystkie pola poza tymi z minami- wygrales
+-1,2,3,...,8- to wartosc, jaka przyjmuje dane pole
+-wartosc ta okresla, ile min sasiaduje bezposrednio z danym polem
+-miny moga sasiadowac z gory, z dolu, z lewa, z prawa a takze po skosie
+-rozmiar planszy oraz ilosc min zalezy od wybranego stopnia trudnosci
+-im wyzszy stopien trudnosci, tym wyzsze prawdopodobienstwo wejscia na mine
+-po planszy poruszaj sie strzalkami
+-zielony krzyzyk # to Twoje obecne polaczenie
+-aby odkryc pole, wcisnij enter
+-bialy krzyzyk # to pola nieodkryte
+-pola odkrywaja sie falowo, tzn odkrywaja sie rowniez sasiednie pola, oprocz:
+*gdy n-te pole jest juz odkryte- wtedy fala odkrywania nie idzie dalej
+*gdy pole jest mina, nie moze sie odkryc na skutek odkrycia innego pola
+*gdy odkryte pole nie jest polem pustym (ma wartosc od 1 do 8)- nastapi odkrycie
+pola, ale dalej odkrywanie sasiadujacych pol nie nastepuje
+
+Poziomy:
+-poczatkujacy- pole 8x8, 10 min
+-sredniozaawansowany- pole 16x16, 40 min
+-zaawansowany- pole 30x30, 180 min
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Powodzenia! :)
